@@ -1,0 +1,182 @@
+@media print {
+
+  @page {
+    margin: 0.5in;
+    border: thin black solid;
+  }
+
+}
+
+html {
+  background-color: #dae9ff;
+  padding: 3pt;
+}
+
+main {
+  font-family: "LM Roman 12", Times, serif;
+  display: flex;
+  margin-top: 9pt;
+}
+
+.masthead {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: space-around;
+  height: 126pt;
+}
+
+.masthead-logo {
+  height: 108pt;
+}
+
+.masthead-header {
+  font-family: "Laandbrau", Times, serif;
+  margin: 0;
+  align-self: end;
+  position: relative;
+  font-size: 48pt;
+  bottom: -20pt;
+}
+
+.issue-date {
+  width: 162pt;
+  text-align: center;
+  display: block;
+  font-size: 14pt;
+  color: white;
+  background-color: #455061;
+  margin: 0;
+  margin-bottom: -18pt;
+  padding: 3pt;
+  border: thin solid black;
+  position: relative;
+  left: 9pt;
+  top: -18pt;
+}
+
+.feature-article {
+  text-align: justify;
+  background-color: white;
+  border: thin solid black;
+  padding: 3pt;
+  columns: 2;
+  column-gap: 8pt;
+  widows: 2;
+  orphans: 2;
+}
+
+.article-title {
+  margin: 6pt 0 6pt 0;
+}
+
+.feature-article p {
+  margin: 0.5pt 0;
+}
+
+.note {
+  font-family: "LM Sans 10", sans-serif;
+}
+
+.note.bottom-note {
+  float: column-bottom;
+  position: relative;
+  bottom: -12pt;
+  margin-top: 6pt;
+}
+
+.note.bottom-note.note-span-2 {
+  column-span: 2;
+}
+
+.note#upcoming-events {
+  width: 180pt;
+  position: relative;
+  right: -21pt;
+  margin-left: -18pt;
+}
+
+.note-title {
+  padding: 3pt;
+  margin: 0;
+  margin-bottom: -23pt;
+  border: thin solid black;
+  background-color: #455061;
+  color: white;
+  text-align: center;
+  position: relative;
+  top: -13pt;
+}
+
+.note-title-left {
+  left: 9pt;
+  float: left;
+}
+
+.note-title-right {
+  right: 9pt;
+  float: right;
+}
+
+.note-content {
+  background-color: #8aa0c3;
+  border: thin solid black;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding-top: 10pt;
+}
+
+.note.bottom-note .note-content {
+  padding: 9pt 3pt 3pt;
+}
+
+.note-content p {
+  text-align: justify;
+  margin: 0 3pt;
+}
+
+.events-list {
+  height: 490pt;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  border-collapse: collapse;
+}
+
+.event-info {
+  vertical-align: middle;
+  text-align: center;
+  width: 50%;
+  border: medium double black;
+  padding: 3pt;
+}
+
+.trc-branding {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-style: normal;
+  font-size: 9pt;
+  padding: 3pt;
+}
+
+.trc-branding h4 {
+  font-style: normal;
+  margin: 0;
+}
+
+.trc-branding p {
+  text-align: left;
+}
+
+.bsa-logo {
+  filter:
+    invert(0%)
+    brightness(0%)
+    contrast(111%);
+  height: 63pt;
+}
