@@ -16,5 +16,8 @@
     "url": "https://github.com/seangllghr/WAKNews/issues"
   },
   "homepage": "https://github.com/seangllghr/WAKNews#readme",
-  "private": true
+  "private": true,
+  "bin": {
+    "waknews": "index.js"
+  }
 }
