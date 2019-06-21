@@ -1,0 +1,20 @@
+{
+  "name": "waknews",
+  "version": "1.0.0",
+  "description": "Generation utility for WAKNews, the daily newsletter of Camp Wakpominee",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seangllghr/WAKNews.git"
+  },
+  "author": "Sean Gallagher",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/seangllghr/WAKNews/issues"
+  },
+  "homepage": "https://github.com/seangllghr/WAKNews#readme",
+  "private": true
+}
