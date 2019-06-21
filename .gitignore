@@ -92,4 +92,4 @@ typings/
 # Project-specific
 
 build/
-test.pdf
+test*
