@@ -8,16 +8,14 @@
     <meta name="author" content="Sean Gallagher">
     <meta name="description" content="The daily publication of Camp Wakpominee">
     <meta name="keywords" content="summer, camp, newsletter, schedule, events">
-    <link rel="stylesheet" href="node_modules/normalize.css/normalize.css" type="text/css">
-    <link rel="stylesheet" href="styles/styles.css" type="text/css">
   </head>
 
   <body>
 
     <header class="masthead">
-      <img src="resources/wakpatch.png" class="masthead-logo" />
+      <img id="wakpatch" class="masthead-logo" />
       <h1 class="masthead-header">WakNews</h1>
-      <img src="resources/council_camping_logo.png" class="masthead-logo" />
+      <img id="camping-logo" class="masthead-logo" />
     </header>
 
     <main>
@@ -51,19 +49,10 @@
         <div class="note-content">
 
           <table id= "coming-events" class="events-list">
-
-            <!-- Additional events can be added by duplicating the table row
-              structure. Theoretical range is 1 ≤ n ≅ 10 -->
-
-            <tr class="event">
-              <td class="event-info event-title">Event</td>
-              <td class="event-info event-detail">Time</td>
-            </tr>
-
           </table>
 
           <div class="trc-branding">
-            <img class="bsa-logo" src="resources/fleur_de_lis_W.png" />
+            <img class="bsa-logo" id="bsa-logo" />
             <address>
               <h4>Twin Rivers Council</h4>
               <p>253 Washington Ave. Ext.</p>
